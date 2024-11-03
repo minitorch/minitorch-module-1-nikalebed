@@ -16,3 +16,28 @@ python sync_previous_module.py previous-module-dir current-module-dir
 The files that will be synced are:
 
         minitorch/operators.py minitorch/module.py tests/test_module.py tests/test_operators.py project/run_manual.py
+
+## exercise 1.5
+
+```
+Hyperameters:
+LR = 0.1
+hidden_layer = 15
+PTS = 70
+```
+
+### Simple 
+
+<img src="/Users/veronikalebedyuk/github-classroom/minitorch/minitorch-module-1-nikalebed/graphics/simple_plot.png" width="50%"><img src="/Users/veronikalebedyuk/github-classroom/minitorch/minitorch-module-1-nikalebed/graphics/simple_loss.png" width="50%">
+
+### Diag
+
+<img src="/Users/veronikalebedyuk/github-classroom/minitorch/minitorch-module-1-nikalebed/graphics/diag_plot.png" width="50%"><img src="/Users/veronikalebedyuk/github-classroom/minitorch/minitorch-module-1-nikalebed/graphics/diag_loss.png" width="50%">
+
+### Circle
+
+<img src="/Users/veronikalebedyuk/github-classroom/minitorch/minitorch-module-1-nikalebed/graphics/circle_plot.png" width="50%"><img src="/Users/veronikalebedyuk/github-classroom/minitorch/minitorch-module-1-nikalebed/graphics/circle_loss.png" width="50%">
+
+### Split
+
+<img src="/Users/veronikalebedyuk/github-classroom/minitorch/minitorch-module-1-nikalebed/graphics/split_plot.png" width="50%"><img src="/Users/veronikalebedyuk/github-classroom/minitorch/minitorch-module-1-nikalebed/graphics/split_loss.png" width="50%">
