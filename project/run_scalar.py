@@ -9,13 +9,7 @@ import minitorch
 
 class Network(minitorch.Module):
     def __init__(self, hidden_layers: int):
-        """
-        Args
-        ----
-        hidden_layers: number 
-        """
         super().__init__()
-        # TODO: Implement for Task 1.5.
         size = 5
         self.layer1 = Linear(2, size)
         self.layer2 = ModuleList([Linear(size, size) for i in range(hidden_layers)])
